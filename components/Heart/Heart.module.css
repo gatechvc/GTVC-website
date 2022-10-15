@@ -1,0 +1,40 @@
+.Heart {
+    width: 100vw;
+    height: 100vh;
+    background: #1f1f1f;
+    padding: 6%;
+    position: relative;
+    z-index: 12;
+    color: #FBFBFB;
+}
+
+.HeartTitle {
+    font-family: 'Roboto Serif', serif;
+    font-size: 64px;
+    color: #FBFBFB;
+}
+
+.yellow {
+    color: #D1B000;
+}
+
+.HeartBody {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    width: 60%;
+    padding-top: 5%;
+}
+
+.LeftContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50vw;
+}
+
+.RightContainer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70vw;
+}

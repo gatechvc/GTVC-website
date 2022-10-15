@@ -1,0 +1,85 @@
+.Events {
+    width: 100vw;
+    background-color: #1F1f1f;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.EventsTitle {
+    color: #FBFBFB;
+    font-family: 'Roboto Serif', serif;
+    font-size: 64px;
+    font-style: italic;
+}
+
+.yellow {
+    color: #D1B000;
+}
+
+.EventsTimelineContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+    height: 100%;
+}
+
+.EventsLeft {
+    display: flex;
+    flex-direction: column;
+    border-right: 2.5px solid #FBFBFB;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+}
+
+.EventsRight {
+    display: flex;
+    flex-direction: column;
+    border-left: 2.5px solid #FBFBFB;
+    width: 100%;
+    height: 100%;
+}
+
+.FinalEventContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    padding-top: 3%;
+    row-gap: 5px;
+}
+
+.FinalEventTitle {
+    font-family: 'Roboto Serif', serif;
+    font-size: 32px;
+    font-style: italic;
+    color: #D1B000;
+
+}
+
+.FinalEventDate {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: #D1B000;
+    text-transform: uppercase;
+}
+
+.FinalEventBody {
+    text-align: center;
+    color: white;
+    font-family: 'Inter';
+}
+
+.Location {
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    color: #D1B000;
+}

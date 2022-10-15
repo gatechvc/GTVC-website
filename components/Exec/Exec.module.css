@@ -1,0 +1,71 @@
+.Exec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    background: #1f1f1f;
+    color: #FBFBFB;
+    
+}
+
+.ExecTitle {
+    font-family: 'Roboto Serif', serif;
+    font-size: 64px;
+    font-style: italic;
+}
+
+.yellow {
+    color: #D1b000;
+}
+
+.ExecContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60vw;
+    justify-content: center;
+    padding-top: 3%;
+    align-items: center;
+    column-gap: 50px;
+    row-gap: 60px;
+}
+
+.ExecCard {
+    width: 28%;
+    height: 300px;
+    background-color:#282828;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-size: 24px;
+}
+
+.ImageContainer {
+    position: relative;
+    width: 100%;
+    height: 80%;
+}
+
+.email {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.position {
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    color: #D1b000;
+    letter-spacing: 2px;
+}
+
+.CardContent {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

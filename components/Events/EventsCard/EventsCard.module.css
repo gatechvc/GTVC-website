@@ -1,0 +1,96 @@
+.EventsCard {
+    display: flex;
+    width: 100%;
+    color: #FBFBFB;
+    width: 400px;
+}
+
+.EventsCardContainer {
+    height: 200px;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+    justify-content: center;
+    row-gap: 5px;
+    position: relative;
+}
+
+.Handle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Date {
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+}
+
+.Location {
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    color: #D1B000;
+}
+
+.Speaker {
+    font-family: 'Roboto Serif', serif;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.Description {
+    font-family: 'Inter', serif;
+}
+
+.TypeRight {
+    position: absolute;
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin: left top;
+    -moz-transform: rotate(90deg);
+    -moz-transform-origin: left top;
+    -ms-transform: rotate(90deg);
+    -ms-transform-origin: left top;
+    -o-transform: rotate(90deg);
+    -o-transform-origin: left top;
+    transform: rotate(90deg);
+    transform-origin: left top;
+
+    position: absolute;
+    top: 0;
+    left: 110%;
+    font-size: 16px;
+    letter-spacing: 4px;
+    white-space: nowrap;
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    color: #ABABAB;
+
+}
+
+.TypeLeft {
+    position: absolute;
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin: left top;
+    -moz-transform: rotate(90deg);
+    -moz-transform-origin: left top;
+    -ms-transform: rotate(90deg);
+    -ms-transform-origin: left top;
+    -o-transform: rotate(90deg);
+    -o-transform-origin: left top;
+    transform: rotate(-90deg);
+    transform-origin: right top;
+
+    position: absolute;
+    top: 0;
+    left: -50%;
+    font-size: 16px;
+    letter-spacing: 4px;
+    white-space: nowrap;
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    color: #ABABAB;
+
+}
