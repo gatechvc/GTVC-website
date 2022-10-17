@@ -61,10 +61,11 @@ export default function Events() {
                   description={event.description}
                   alignment="left"
                   type={event.type}
+                  key={event.date}
                 ></EventsCard>
               );
             } else {
-              return <EmptyCard></EmptyCard>;
+              return <EmptyCard key={`empty ${event.date}`}></EmptyCard>;
             }
           })}
         </div>
@@ -79,10 +80,11 @@ export default function Events() {
                   description={event.description}
                   alignment="right"
                   type={event.type}
+                  key={event.date}
                 ></EventsCard>
               );
             } else {
-              return <EmptyCard></EmptyCard>;
+              return <EmptyCard key={`empty ${event.date}`}></EmptyCard>;
             }
           })}
         </div>

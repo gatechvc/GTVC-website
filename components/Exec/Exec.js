@@ -44,7 +44,7 @@ export default function Exec() {
       <div className={styles.ExecContainer}>
         {exec.map((member) => {
           return (
-            <div className={styles.ExecCard}>
+            <div className={styles.ExecCard} key={member.email}>
               <div className={styles.ImageContainer}>
                 <Image
                   src={member.image}

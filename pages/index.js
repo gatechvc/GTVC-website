@@ -3,6 +3,7 @@ import Heart from "../components/Heart/Heart";
 import Events from "../components/Events/Events";
 import Exec from "../components/Exec/Exec";
 import Sectors from "../components/Sectors/Sectors";
+import Join from "../components/JoinGTVC/Join";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
     <div>
       <Hero></Hero>
       <Heart></Heart>
+      <Join></Join>
       <Events></Events>
       <Sectors></Sectors>
       <Exec></Exec>

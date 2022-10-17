@@ -1,0 +1,15 @@
+.Join {
+    padding: 5%;
+    background-color: #FBFBFB;
+}
+
+.JoinTitle {
+    font-family: 'Roboto Serif', serif;
+    color: #1f1f1f;
+    font-size: 64px;
+    font-style: italic;
+}
+
+.yellow {
+    color: #D8b000;
+}
