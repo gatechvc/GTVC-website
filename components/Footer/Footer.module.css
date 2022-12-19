@@ -1,0 +1,16 @@
+.footer {
+    background: #171717;
+    margin: 0;
+    color: white;
+    font-family: 'Roboto Serif', serif;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5%;
+}

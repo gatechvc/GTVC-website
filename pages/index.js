@@ -4,6 +4,7 @@ import Events from "../components/Events/Events";
 import Exec from "../components/Exec/Exec";
 import Sectors from "../components/Sectors/Sectors";
 import Join from "../components/JoinGTVC/Join";
+import Footer from "../components/Footer/Footer";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Events></Events>
       <Sectors></Sectors>
       <Exec></Exec>
+      <Footer></Footer>
     </div>
   );
 }
