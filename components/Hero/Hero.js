@@ -1,5 +1,5 @@
 import styles from "./Hero.module.css";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import darklogo from "../../assets/images/logodark.png";
 import hamburger from "../../assets/images/hamburger.png";
 import VC from "../../assets/images/VC.png";

@@ -1,5 +1,5 @@
 import styles from "./Heart.module.css";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import heartLeft from "../../assets/images/HeartLeft.png";
 import heartRight from "../../assets/images/HeartRight.png";
 

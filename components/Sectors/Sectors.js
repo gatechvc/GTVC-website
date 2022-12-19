@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import styles from "./Sectors.module.css";
 import test from "../../assets/images/test.jpg";
 

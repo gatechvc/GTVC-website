@@ -1,6 +1,6 @@
 import styles from "./Events.module.css";
 import EventsCard from "./EventsCard/EventsCard";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import EmptyCard from "./EventsCard/EmptyCard";
 import downEventHandle from "../../assets/images/downeventhandle.png";
 

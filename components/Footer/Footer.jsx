@@ -1,6 +1,6 @@
 import styles from './Footer.module.css';
 import footer_logo from '../../assets/images/logo.png';
-import Image from 'next/image'
+import Image from "next/legacy/image";
 
 export default function Footer() {
     return (

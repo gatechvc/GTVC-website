@@ -1,5 +1,5 @@
 import styles from "./Exec.module.css";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import george from "../../assets/images/george.jpg";
 
 export default function Exec() {

@@ -1,7 +1,7 @@
 import styles from "./EventsCard.module.css";
 import rightEventHandle from "../../../assets/images/righteventhandle.png";
 import leftEventHandle from "../../../assets/images/lefteventhandle.png";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 export default function EventsCard(props) {
   return (
