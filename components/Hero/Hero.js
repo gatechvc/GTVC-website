@@ -1,5 +1,5 @@
 import styles from "./Hero.module.css";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import darklogo from "../../assets/images/logodark.png";
 import hamburger from "../../assets/images/hamburger.png";
 import VC from "../../assets/images/VC.png";
@@ -10,10 +10,22 @@ export default function Hero() {
       <div className={styles.Hero}>
         <div className={styles.Header}>
           <div className={styles.HamburgerContainer}>
-            <Image src={hamburger} layout="responsive"></Image>
+            <Image
+              src={hamburger}
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto"
+              }}></Image>
           </div>
           <div className={styles.HeaderLogoContainer}>
-            <Image src={darklogo} layout="responsive"></Image>
+            <Image
+              src={darklogo}
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto"
+              }}></Image>
           </div>
         </div>
         <div className={styles.HeroContent}>
@@ -30,7 +42,12 @@ export default function Hero() {
         </div>
       </div>
       <div className={styles.VCContainer}>
-        <Image src={VC}></Image>
+        <Image
+          src={VC}
+          style={{
+            maxWidth: "100%",
+            height: "auto"
+          }}></Image>
       </div>
     </div>
   );

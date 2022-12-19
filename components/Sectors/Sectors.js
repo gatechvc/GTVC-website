@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import styles from "./Sectors.module.css";
 import test from "../../assets/images/test.jpg";
 
@@ -56,7 +56,13 @@ export default function Sectors() {
           return (
             <div className={styles.SectorCard} key={sector.name}>
               <div className={styles.CardImageContainer}>
-                <Image src={test} layout="fill" objectFit="cover"></Image>
+                <Image
+                  src={test}
+                  fill
+                  sizes="100vw"
+                  style={{
+                    objectFit: "cover"
+                  }}></Image>
               </div>
               <div className={styles.cardContent}>
                 <div className={styles.SectorTitle}>{sector.name}</div>

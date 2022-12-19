@@ -1,5 +1,5 @@
 import styles from "./Heart.module.css";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import heartLeft from "../../assets/images/HeartLeft.png";
 import heartRight from "../../assets/images/HeartRight.png";
 
@@ -17,10 +17,22 @@ export default function Heart() {
         lectus. Class aptent taciti sociosqu
       </div>
       <div className={styles.LeftContainer}>
-        <Image src={heartLeft} layout="responsive"></Image>
+        <Image
+          src={heartLeft}
+          sizes="100vw"
+          style={{
+            width: "100%",
+            height: "auto"
+          }}></Image>
       </div>
       <div className={styles.RightContainer}>
-        <Image src={heartRight} layout="responsive"></Image>
+        <Image
+          src={heartRight}
+          sizes="100vw"
+          style={{
+            width: "100%",
+            height: "auto"
+          }}></Image>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import styles from "./EventsCard.module.css";
 import rightEventHandle from "../../../assets/images/righteventhandle.png";
 import leftEventHandle from "../../../assets/images/lefteventhandle.png";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 export default function EventsCard(props) {
   return (
@@ -9,7 +9,12 @@ export default function EventsCard(props) {
       <div className={styles.EventsCard}>
         {props.alignment == "right" ? (
           <div className={styles.Handle}>
-            <Image src={rightEventHandle}></Image>
+            <Image
+              src={rightEventHandle}
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }}></Image>
           </div>
         ) : (
           <></>
@@ -31,7 +36,12 @@ export default function EventsCard(props) {
 
         {props.alignment != "right" ? (
           <div className={styles.Handle}>
-            <Image src={leftEventHandle}></Image>
+            <Image
+              src={leftEventHandle}
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }}></Image>
           </div>
         ) : (
           <></>

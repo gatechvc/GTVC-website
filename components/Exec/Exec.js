@@ -1,5 +1,5 @@
 import styles from "./Exec.module.css";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import george from "../../assets/images/george.jpg";
 
 export default function Exec() {
@@ -48,9 +48,11 @@ export default function Exec() {
               <div className={styles.ImageContainer}>
                 <Image
                   src={member.image}
-                  layout="fill"
-                  objectFit="cover"
-                ></Image>
+                  fill
+                  sizes="100vw"
+                  style={{
+                    objectFit: "cover"
+                  }}></Image>
               </div>
               <div className={styles.CardContent}>
                 <div className={styles.position}>{member.position}</div>

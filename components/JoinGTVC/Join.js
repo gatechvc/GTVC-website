@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import styles from "./Join.module.css";
 
 export default function Join() {
@@ -10,7 +10,11 @@ export default function Join() {
       <div className={styles.CardContainer}>
         <div className={styles.Card}>
           <div className={styles.ImageContainer}>
-            <Image></Image>
+            <Image
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }}></Image>
           </div>
         </div>
       </div>
