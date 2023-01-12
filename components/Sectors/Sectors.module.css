@@ -24,6 +24,7 @@
 
 .SectorCard {
     width: 31%;
+    min-width: 300px;
     min-height: 500px;
     background: #1f1f1f;
 }
@@ -49,4 +50,19 @@
 .SectorBody {
     font-family: 'Inter', sans-serif;
     color: #ABABAB ;
+}
+
+@media screen and (max-width: 700px) {
+    .SectorTitle {
+        font-size: 24px;
+    }
+
+    .SectorsTitle {
+        font-size: 48px;
+        padding: 3%;
+    }
+
+    .SectorBody {
+        font-size: 14px;
+    }
 }

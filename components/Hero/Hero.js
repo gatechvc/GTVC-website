@@ -3,6 +3,8 @@ import Image from "next/image";
 import darklogo from "../../assets/images/logodark.png";
 import hamburger from "../../assets/images/hamburger.png";
 import VC from "../../assets/images/VC.png";
+import VCMask from "../../assets/images/VCMask.png";
+import Vcbg from "../../assets/images/VCbg.png";
 
 export default function Hero() {
   return (
@@ -15,8 +17,9 @@ export default function Hero() {
               sizes="100vw"
               style={{
                 width: "100%",
-                height: "auto"
-              }}></Image>
+                height: "auto",
+              }}
+            ></Image>
           </div>
           <div className={styles.HeaderLogoContainer}>
             <Image
@@ -24,8 +27,9 @@ export default function Hero() {
               sizes="100vw"
               style={{
                 width: "100%",
-                height: "auto"
-              }}></Image>
+                height: "auto",
+              }}
+            ></Image>
           </div>
         </div>
         <div className={styles.HeroContent}>
@@ -42,12 +46,20 @@ export default function Hero() {
         </div>
       </div>
       <div className={styles.VCContainer}>
+        <Image src={VC} className={styles.bigVC}></Image>
+      </div>
+      <div className={styles.VCContainer2}>
         <Image
-          src={VC}
+          src={VCMask}
+          className={styles.bigVC}
           style={{
             maxWidth: "100%",
-            height: "auto"
-          }}></Image>
+            height: "auto",
+          }}
+        ></Image>
+      </div>
+      <div className={styles.VCContainer3}>
+        <Image src={Vcbg} className={styles.bigVC}></Image>
       </div>
     </div>
   );

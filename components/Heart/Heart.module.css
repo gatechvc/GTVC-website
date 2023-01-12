@@ -1,6 +1,5 @@
 .Heart {
     width: 100vw;
-    height: 100vh;
     background: #1f1f1f;
     padding: 6%;
     position: relative;
@@ -23,6 +22,7 @@
     font-size: 24px;
     width: 60%;
     padding-top: 5%;
+    padding-bottom: 20%;
 }
 
 .LeftContainer {
@@ -37,4 +37,15 @@
     bottom: 0;
     right: 0;
     width: 70vw;
+}
+
+@media screen and (max-width: 700px) {
+    .HeartTitle {
+        font-size: 48px;
+    }
+
+    .HeartBody {
+        font-size: 18px;
+        width: 80%;
+    }
 }
