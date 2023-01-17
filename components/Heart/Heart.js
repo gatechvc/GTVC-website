@@ -7,14 +7,13 @@ export default function Heart() {
   return (
     <div className={styles.Heart}>
       <div className={styles.HeartTitle}>
-        Lorem <span className={styles.yellow}>ipsum dolor</span> sit amet
+        Our <span className={styles.yellow}>Story</span>
       </div>
       <div className={styles.HeartBody}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis
-        molestie, dictum est a, mattis tellus. Sed dignissim, metus nec
-        fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus
-        elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
-        lectus. Class aptent taciti sociosqu
+        The Georgia Tech Venture Capital Club was founded to help raise
+        awareness for career opportunities in Venture Capital and related
+        Financial Services. Additionally, the club helps members get hands-on
+        experience and educates members about the venture capital industry.
       </div>
       <div className={styles.LeftContainer}>
         <Image
@@ -22,8 +21,9 @@ export default function Heart() {
           sizes="100vw"
           style={{
             width: "100%",
-            height: "auto"
-          }}></Image>
+            height: "auto",
+          }}
+        ></Image>
       </div>
       <div className={styles.RightContainer}>
         <Image
@@ -31,8 +31,9 @@ export default function Heart() {
           sizes="100vw"
           style={{
             width: "100%",
-            height: "auto"
-          }}></Image>
+            height: "auto",
+          }}
+        ></Image>
       </div>
     </div>
   );

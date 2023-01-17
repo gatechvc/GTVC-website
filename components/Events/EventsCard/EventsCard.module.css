@@ -72,20 +72,20 @@
 
 .TypeLeft {
     position: absolute;
-    -webkit-transform: rotate(90deg);
-    -webkit-transform-origin: left top;
-    -moz-transform: rotate(90deg);
-    -moz-transform-origin: left top;
-    -ms-transform: rotate(90deg);
-    -ms-transform-origin: left top;
-    -o-transform: rotate(90deg);
-    -o-transform-origin: left top;
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin: right top;
+    -moz-transform: rotate(-90deg);
+    -moz-transform-origin: right top;
+    -ms-transform: rotate(-90deg);
+    -ms-transform-origin: right top;
+    -o-transform: rotate(-90deg);
+    -o-transform-origin: right top;
     transform: rotate(-90deg);
     transform-origin: right top;
 
     position: absolute;
     top: 0;
-    left: -50%;
+    right: 110%;
     font-size: 16px;
     letter-spacing: 4px;
     white-space: nowrap;

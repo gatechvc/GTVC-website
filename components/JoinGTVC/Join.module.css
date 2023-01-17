@@ -77,7 +77,7 @@
 }
 
 .Card:hover > .CardHeader {
-    transform: translateY(-200%);
+    transform: translateY(-180px);
     transition: 0.3s;
 }
 

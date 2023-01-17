@@ -5,6 +5,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <div className={styles.footer}>
+      
       <div className={styles.footer_footer}>
         <Image
           src={footer_logo}

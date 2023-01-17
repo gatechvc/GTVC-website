@@ -11,7 +11,7 @@ export default function Join() {
       <div className={styles.CardContainer}>
         <div className={styles.Card}>
           <div className={styles.CardContent}>
-            <div className={styles.CardHeader}>Sector Head</div>
+            <div className={styles.CardHeader}>Research Analyst</div>
           </div>
         </div>
         <div className={styles.Card}>
@@ -29,7 +29,7 @@ export default function Join() {
         </div>
         <div className={styles.Card}>
           <div className={styles.CardContent}>
-            <div className={styles.CardHeader}>Sector Head</div>
+            <div className={styles.CardHeader}>General Member</div>
           </div>
         </div>
       </div>

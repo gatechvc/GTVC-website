@@ -7,39 +7,95 @@ import downEventHandle from "../../assets/images/downeventhandle.png";
 export default function Events() {
   const Events = [
     {
-      date: "September 12th, 2022 6pm-8pm TBD",
-      location: "Mason 3133",
-      speaker: "Blake Platton",
+      date: "January 23rd, 2023 6:15PM - 7:15PM",
+      location: "Scheller 103",
+      speaker: "Sean O' Brien and Michael Cohn",
       description:
         "Join us to get an introduction to VC, how it works, and how it makes money.",
       type: "Speaker 1",
       alignment: "left",
     },
     {
-      date: "September 12th, 2022 6pm-8pm TBD",
-      location: "Mason 3133",
-      speaker: "Blake Platton",
+      date: "January 30th, 2023 6:15PM - 7:15PM",
+      location: "Scheller 103",
+      speaker: "Jack Semrau",
       description:
         "Join us to get an introduction to VC, how it works, and how it makes money.",
-      type: "Speaker 1",
+      type: "Speaker 2",
       alignment: "right",
     },
     {
-      date: "September 12th, 2022 6pm-8pm TBD",
-      location: "Mason 3133",
-      speaker: "Blake Platton",
+      date: "February 6th, 2023 6:15PM - 7:15PM",
+      location: "Scheller 103",
+      speaker: "Jake Kohler",
       description:
         "Join us to get an introduction to VC, how it works, and how it makes money.",
-      type: "Speaker 1",
+      type: "Speaker 3",
       alignment: "left",
     },
     {
-      date: "September 12th, 2022 6pm-8pm TBD",
-      location: "Mason 3133",
-      speaker: "Blake Platton",
+      date: "February 13th, 2023 6:15PM - 7:15PM",
+      location: "Scheller 103",
+      speaker: "Problem",
       description:
         "Join us to get an introduction to VC, how it works, and how it makes money.",
-      type: "Speaker 1",
+      type: "Curriculum 1",
+      alignment: "right",
+    },
+    {
+      date: "February 20th, 2023 6:15PM - 7:15PM",
+      location: "Scheller 103",
+      speaker: "Lisa Calhoun",
+      description:
+        "Join us to get an introduction to VC, how it works, and how it makes money.",
+      type: "Speaker 4",
+      alignment: "left",
+    },
+    {
+      date: "February 27th, 2023 6:15PM - 7:15PM",
+      location: "IC 109",
+      speaker: "Product & Team: Seth Radman",
+      description:
+        "Join us to get an introduction to VC, how it works, and how it makes money.",
+      type: "Curriculum 2",
+      alignment: "right",
+    },
+    {
+      date: "March 6th, 2023 6:15PM - 7:15PM",
+      location: "IC 109",
+      speaker: "Jonathan King",
+      description:
+        "Join us to get an introduction to VC, how it works, and how it makes money.",
+      type: "Speaker 5",
+      alignment: "left",
+    },
+    {
+      date: "March 13th, 2023 6:15PM - 7:15PM",
+      location: "IC 109",
+      speaker: "Market Sizing + Milestone Metrics: Scott Lopano",
+      description:
+        "Join us to get an introduction to VC, how it works, and how it makes money.",
+      type: "Curriculum 3",
+      alignment: "right",
+    },
+
+    {
+      date: "March 27th, 2023 6:15PM - 7:15PM",
+      location: "IC 109",
+      speaker: "Market Sizing + Milestone Metrics: Scott Lopano",
+      description:
+        "Join us to get an introduction to VC, how it works, and how it makes money.",
+      type: "Curriculum 4",
+      alignment: "left",
+    },
+
+    {
+      date: "April 3rd, 2023 6:15PM - 7:15PM",
+      location: "IC 109",
+      speaker: "Abhinaya Konduru",
+      description:
+        "Join us to get an introduction to VC, how it works, and how it makes money.",
+      type: "Speaker 6",
       alignment: "right",
     },
   ];
@@ -91,14 +147,14 @@ export default function Events() {
       </div>
       <div className={styles.FinalEventContainer}>
         <div className={styles.FinalEventDate}>
-          September 12th, 2022 6pm-8pm TBD
+          April 24th, 2023 6:15PM - 7:15PM
         </div>
-        <div className={styles.FinalEventTitle}>Final Pitch Competition</div>
+        <div className={styles.FinalEventTitle}>Final Event</div>
         <div className={styles.FinalEventBody}>
           Join us at our final event to learn about the research our sectors
           completed this semester
         </div>
-        <div className={styles.Location}>Mason 3133</div>
+        <div className={styles.Location}>Scheller 100</div>
       </div>
     </div>
   );

@@ -5,8 +5,11 @@ import hamburger from "../../assets/images/hamburger.png";
 import VC from "../../assets/images/VC.png";
 import VCMask from "../../assets/images/VCMask.png";
 import Vcbg from "../../assets/images/VCbg.png";
+import { useState } from "react";
 
 export default function Hero() {
+  const [expanded, setExpanded] = useState(false);
+
   return (
     <div className={styles.HeroContainer}>
       <div className={styles.Hero}>
@@ -18,8 +21,17 @@ export default function Hero() {
               style={{
                 width: "100%",
                 height: "auto",
+                cursor: "pointer",
               }}
+              onClick={() => setExpanded(!expanded)}
             ></Image>
+            {expanded && (
+              <div className={styles.ExpandedMenu}>
+                <div className={styles.ExpandedMenuItem}>Home</div>
+                <div className={styles.ExpandedMenuItem}>About</div>
+                <div className={styles.ExpandedMenuItem}>Research</div>
+              </div>
+            )}
           </div>
           <div className={styles.HeaderLogoContainer}>
             <Image

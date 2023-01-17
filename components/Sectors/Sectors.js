@@ -5,44 +5,49 @@ import test from "../../assets/images/test.jpg";
 export default function Sectors() {
   const sectors = [
     {
-      name: "Biotech",
+      name: "Climate Tech",
       description:
-        "This sector explores Biological Technology startups that use the application of organisms, cells, parts thereof and molecular analogues for products and services.",
+        "This sector explores Climate Technology startups that use the application of technology to mitigate and adapt to climate change.",
     },
     {
-      name: "Biotech",
+      name: "Consumer",
       description:
-        "This sector explores Biological Technology startups that use the application of organisms, cells, parts thereof and molecular analogues for products and services.",
+        "The consumer sector refers to companies that produce and sell goods and services directly to individuals for their personal use.",
     },
     {
-      name: "Biotech",
+      name: "Crypto",
       description:
-        "This sector explores Biological Technology startups that use the application of organisms, cells, parts thereof and molecular analogues for products and services.",
+        "The crypto sector includes companies and organizations involved in the development, research, trading, and use of cryptocurrency and blockchain technology.",
     },
     {
-      name: "Biotech",
+      name: "Cybersecurity",
       description:
-        "This sector explores Biological Technology startups that use the application of organisms, cells, parts thereof and molecular analogues for products and services.",
+        "The cybersecurity sector is a rapidly growing industry that deals with the protection of digital information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction. ",
     },
     {
-      name: "Biotech",
+      name: "Sustainability",
       description:
-        "This sector explores Biological Technology startups that use the application of organisms, cells, parts thereof and molecular analogues for products and services.",
+        "The sustainability sector is a broad industry that encompasses companies, organizations and initiatives that work towards promoting environmentally and socially responsible practices.",
     },
     {
-      name: "Biotech",
+      name: "Healthtech",
       description:
-        "This sector explores Biological Technology startups that use the application of organisms, cells, parts thereof and molecular analogues for products and services.",
+        "Healthtech, also known as digital health, is a rapidly growing industry that encompasses the use of technology to improve healthcare delivery and outcomes.",
     },
     {
-      name: "Biotech",
+      name: "Deep Tech",
       description:
-        "This sector explores Biological Technology startups that use the application of organisms, cells, parts thereof and molecular analogues for products and services.",
+        "Deep tech refers to a category of technology that is based on scientific breakthroughs and engineering innovations.",
     },
     {
-      name: "Biotech",
+      name: "Supply Chain",
       description:
-        "This sector explores Biological Technology startups that use the application of organisms, cells, parts thereof and molecular analogues for products and services.",
+        "The supply chain sector refers to the system of organizations, people, activities, information and resources involved in creating and delivering a product or service from the raw materials stage to the end customer.",
+    },
+    {
+      name: "Fintech",
+      description:
+        "Fintech is a rapidly growing industry that uses technology to improve and automate financial services.",
     },
   ];
 
@@ -61,8 +66,9 @@ export default function Sectors() {
                   fill
                   sizes="100vw"
                   style={{
-                    objectFit: "cover"
-                  }}></Image>
+                    objectFit: "cover",
+                  }}
+                ></Image>
               </div>
               <div className={styles.cardContent}>
                 <div className={styles.SectorTitle}>{sector.name}</div>
