@@ -52,7 +52,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 25%;
+    width: 80%;
     padding-top: 3%;
     row-gap: 5px;
 }
@@ -75,6 +75,7 @@
 .FinalEventBody {
     text-align: center;
     color: white;
+    width: 400px;
     font-family: 'Inter';
 }
 
@@ -82,4 +83,14 @@
     font-family: 'Roboto Mono', monospace;
     text-transform: uppercase;
     color: #D1B000;
+}
+
+@media screen and (max-width: 500px) {
+    .FinalEventBody {
+        width: 100%;
+    }
+
+    .EventsTitle {
+        font-size: 44px;
+    }
 }

@@ -9,6 +9,7 @@ import tejal from "../../assets/images/tejal.JPG";
 import katelyn from "../../assets/images/katelyn.JPG";
 import yatharth from "../../assets/images/yatharth.JPG";
 import kush from "../../assets/images/kush.JPG";
+import xander from "../../assets/images/xander.jpeg";
 
 export default function Exec() {
   const exec = [
@@ -34,7 +35,7 @@ export default function Exec() {
       name: "Xander Coles",
       position: "Director of Growth",
       email: "acoles6@gatech.edu",
-      image: george,
+      image: xander,
     },
     {
       name: "Adithya Gurunathan",

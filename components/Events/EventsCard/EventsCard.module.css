@@ -6,7 +6,7 @@
 }
 
 .EventsCardContainer {
-    height: 200px;
+    height: 275px;
 }
 
 .Content {
@@ -93,4 +93,19 @@
     text-transform: uppercase;
     color: #ABABAB;
 
+}
+
+@media screen and (max-width: 500px) {
+    .EventsCard {
+        width: 300px;
+    }
+
+    .EventsCardContainer {
+        height: 100%;
+        margin-top: 40px;
+    }
+
+    .Speaker {
+        font-size: 24px;
+    }
 }

@@ -58,11 +58,15 @@
     }
 
     .SectorsTitle {
-        font-size: 48px;
+        font-size: 44px;
         padding: 3%;
     }
 
     .SectorBody {
         font-size: 14px;
+    }
+
+    .SectorCard {
+        width: 100%;
     }
 }

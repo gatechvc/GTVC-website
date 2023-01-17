@@ -1,6 +1,9 @@
 import Image from "next/image";
 import styles from "./Sectors.module.css";
 import test from "../../assets/images/test.jpg";
+import climatetech from "../../assets/images/climatetech.png";
+import consumer from "../../assets/images/consumer.jpg";
+import crypto from "../../assets/images/crypto.png";
 
 export default function Sectors() {
   const sectors = [
@@ -8,16 +11,19 @@ export default function Sectors() {
       name: "Climate Tech",
       description:
         "This sector explores Climate Technology startups that use the application of technology to mitigate and adapt to climate change.",
+      image: climatetech,
     },
     {
       name: "Consumer",
       description:
         "The consumer sector refers to companies that produce and sell goods and services directly to individuals for their personal use.",
+      image: consumer,
     },
     {
       name: "Crypto",
       description:
         "The crypto sector includes companies and organizations involved in the development, research, trading, and use of cryptocurrency and blockchain technology.",
+      image: crypto,
     },
     {
       name: "Cybersecurity",
@@ -62,7 +68,7 @@ export default function Sectors() {
             <div className={styles.SectorCard} key={sector.name}>
               <div className={styles.CardImageContainer}>
                 <Image
-                  src={test}
+                  src={sector.image ? sector.image : test}
                   fill
                   sizes="100vw"
                   style={{

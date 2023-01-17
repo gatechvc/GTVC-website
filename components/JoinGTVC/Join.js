@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./Join.module.css";
 import test from "../../assets/images/test.jpg";
+import gm_pic from "../../assets/images/gm_pic.jpg";
 
 export default function Join() {
   return (
@@ -11,8 +12,16 @@ export default function Join() {
       <div className={styles.CardContainer}>
         <div className={styles.Card}>
           <div className={styles.CardContent}>
-            <div className={styles.CardHeader}>Research Analyst</div>
+            <div className={styles.CardBGBody}>
+              lorem impsum dolor lorem impsum dolor lorem impsum dolorlorem
+              impsum dolor lorem impsum dolor lorem impsum dolor lorem impsum
+              dolor
+            </div>
           </div>
+          <div className={styles.CardImageContainer}>
+            <Image src={test} className={styles.CardImage}></Image>
+          </div>
+          <div className={styles.CardHeader}>Sector Head</div>
         </div>
         <div className={styles.Card}>
           <div className={styles.CardContent}>
@@ -29,8 +38,16 @@ export default function Join() {
         </div>
         <div className={styles.Card}>
           <div className={styles.CardContent}>
-            <div className={styles.CardHeader}>General Member</div>
+            <div className={styles.CardBGBody}>
+              lorem impsum dolor lorem impsum dolor lorem impsum dolorlorem
+              impsum dolor lorem impsum dolor lorem impsum dolor lorem impsum
+              dolor
+            </div>
           </div>
+          <div className={styles.CardImageContainer}>
+            <Image src={gm_pic} className={styles.CardImage}></Image>
+          </div>
+          <div className={styles.CardHeader}>General Member</div>
         </div>
       </div>
     </div>

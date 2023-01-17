@@ -7,14 +7,15 @@ export default function EventsCard(props) {
   return (
     <div className={styles.EventsCardContainer}>
       <div className={styles.EventsCard}>
-        {props.alignment == "right" ? (
+        {props.alignment == "right" && !props.responsive ? (
           <div className={styles.Handle}>
             <Image
               src={rightEventHandle}
               style={{
                 maxWidth: "100%",
-                height: "auto"
-              }}></Image>
+                height: "auto",
+              }}
+            ></Image>
           </div>
         ) : (
           <></>
@@ -34,14 +35,15 @@ export default function EventsCard(props) {
           <div className={styles.Location}>{props.location}</div>
         </div>
 
-        {props.alignment != "right" ? (
+        {props.alignment != "right" && !props.responsive ? (
           <div className={styles.Handle}>
             <Image
               src={leftEventHandle}
               style={{
                 maxWidth: "100%",
-                height: "auto"
-              }}></Image>
+                height: "auto",
+              }}
+            ></Image>
           </div>
         ) : (
           <></>

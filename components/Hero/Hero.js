@@ -27,9 +27,9 @@ export default function Hero() {
             ></Image>
             {expanded && (
               <div className={styles.ExpandedMenu}>
-                <div className={styles.ExpandedMenuItem}>Home</div>
-                <div className={styles.ExpandedMenuItem}>About</div>
-                <div className={styles.ExpandedMenuItem}>Research</div>
+                <div className={styles.ExpandedMenuItem}>HOME</div>
+                <div className={styles.ExpandedMenuItem}>ABOUT</div>
+                <div className={styles.ExpandedMenuItem}>RESEARCH</div>
               </div>
             )}
           </div>

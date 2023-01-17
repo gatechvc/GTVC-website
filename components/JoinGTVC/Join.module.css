@@ -93,10 +93,19 @@
 
 @media screen and (max-width: 700px) {
     .JoinTitle {
-        font-size: 48px;
+        font-size: 42px;
+        padding-bottom: 10%;
     }
 
     .CardContainer {
         justify-content: center;
+    }
+
+    .CardHeader {
+        font-size: 36px;
+    }
+
+    .Card {
+        width: 100%;
     }
 }
