@@ -4,6 +4,11 @@ import test from "../../assets/images/test.jpg";
 import climatetech from "../../assets/images/climatetech.png";
 import consumer from "../../assets/images/consumer.jpg";
 import crypto from "../../assets/images/crypto.png";
+import cybersecurity from "../../assets/images/cybersec.jpg";
+import sustainability from "../../assets/images/sustainability.jpg";
+import healthtech from "../../assets/images/health-tech.png";
+import deep from "../../assets/images/deep.png";
+import supply from "../../assets/images/supply.jpg";
 
 export default function Sectors() {
   const sectors = [
@@ -29,26 +34,31 @@ export default function Sectors() {
       name: "Cybersecurity",
       description:
         "The cybersecurity sector is a rapidly growing industry that deals with the protection of digital information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction. ",
+      image: cybersecurity,
     },
     {
       name: "Sustainability",
       description:
         "The sustainability sector is a broad industry that encompasses companies, organizations and initiatives that work towards promoting environmentally and socially responsible practices.",
+      image: sustainability,
     },
     {
       name: "Healthtech",
       description:
         "Healthtech, also known as digital health, is a rapidly growing industry that encompasses the use of technology to improve healthcare delivery and outcomes.",
+      image: healthtech,
     },
     {
       name: "Deep Tech",
       description:
         "Deep tech refers to a category of technology that is based on scientific breakthroughs and engineering innovations.",
+      image: deep,
     },
     {
       name: "Supply Chain",
       description:
         "The supply chain sector refers to the system of organizations, people, activities, information and resources involved in creating and delivering a product or service from the raw materials stage to the end customer.",
+      image: supply,
     },
     {
       name: "Fintech",

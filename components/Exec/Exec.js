@@ -1,14 +1,14 @@
 import styles from "./Exec.module.css";
 import Image from "next/image";
 import george from "../../assets/images/george.jpg";
-import elaine from "../../assets/images/elaine.JPG";
-import mila from "../../assets/images/mila.JPG";
-import drake from "../../assets/images/drake.JPG";
-import pearl from "../../assets/images/pearl.JPG";
-import tejal from "../../assets/images/tejal.JPG";
-import katelyn from "../../assets/images/katelyn.JPG";
-import yatharth from "../../assets/images/yatharth.JPG";
-import kush from "../../assets/images/kush.JPG";
+import elaine from "../../assets/images/elaine.jpg";
+import mila from "../../assets/images/mila.jpg";
+import drake from "../../assets/images/drake.jpg";
+import pearl from "../../assets/images/pearl.jpg";
+import tejal from "../../assets/images/tejal.jpg";
+import katelyn from "../../assets/images/katelyn.jpg";
+import yatharth from "../../assets/images/yatharth.jpg";
+import kush from "../../assets/images/kush.jpg";
 import xander from "../../assets/images/xander.jpeg";
 
 export default function Exec() {
