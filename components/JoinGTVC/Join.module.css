@@ -25,7 +25,7 @@
 }
 
 .Card {
-    width: 25%;
+    width: 32%;
     min-width: 300px;
     background: #1f1f1f;
     height: 500px;
@@ -88,7 +88,9 @@
 }
 
 .CardBGBody {
-    text-align: center;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+
 }
 
 @media screen and (max-width: 700px) {

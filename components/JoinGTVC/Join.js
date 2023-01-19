@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./Join.module.css";
 import test from "../../assets/images/test.jpg";
 import gm_pic from "../../assets/images/gm_pic.jpg";
+import research from "../../assets/images/research.jpg";
 
 export default function Join() {
   return (
@@ -13,9 +14,22 @@ export default function Join() {
         <div className={styles.Card}>
           <div className={styles.CardContent}>
             <div className={styles.CardBGBody}>
-              lorem impsum dolor lorem impsum dolor lorem impsum dolorlorem
-              impsum dolor lorem impsum dolor lorem impsum dolor lorem impsum
-              dolor
+              Research analysts report directly to the sector head, conduct due
+              diligence, do thematic research, and present to venture
+              capitalists.
+            </div>
+          </div>
+          <div className={styles.CardImageContainer}>
+            <Image src={research} className={styles.CardImage}></Image>
+          </div>
+          <div className={styles.CardHeader}>Research Analyst</div>
+        </div>
+        <div className={styles.Card}>
+          <div className={styles.CardContent}>
+            <div className={styles.CardBGBody}>
+              This role is a liaison between research analysts and the director
+              of research. Sector heads lead research, assign tasks to analysts,
+              guide due diligence processes, and structure reports/deliverables.
             </div>
           </div>
           <div className={styles.CardImageContainer}>
@@ -26,22 +40,9 @@ export default function Join() {
         <div className={styles.Card}>
           <div className={styles.CardContent}>
             <div className={styles.CardBGBody}>
-              lorem impsum dolor lorem impsum dolor lorem impsum dolorlorem
-              impsum dolor lorem impsum dolor lorem impsum dolor lorem impsum
-              dolor
-            </div>
-          </div>
-          <div className={styles.CardImageContainer}>
-            <Image src={test} className={styles.CardImage}></Image>
-          </div>
-          <div className={styles.CardHeader}>Sector Head</div>
-        </div>
-        <div className={styles.Card}>
-          <div className={styles.CardContent}>
-            <div className={styles.CardBGBody}>
-              lorem impsum dolor lorem impsum dolor lorem impsum dolorlorem
-              impsum dolor lorem impsum dolor lorem impsum dolor lorem impsum
-              dolor
+              General Members have access to the speaker series and all
+              communication with a better platform for being recruited as a
+              research analyst in the following semesters.
             </div>
           </div>
           <div className={styles.CardImageContainer}>

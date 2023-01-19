@@ -3,6 +3,7 @@ import Image from "next/image";
 import darklogo from "../../assets/images/logodark.png";
 import hamburger from "../../assets/images/hamburger.png";
 import VC from "../../assets/images/VC.png";
+import Link from "next/link";
 import VCMask from "../../assets/images/VCMask.png";
 import Vcbg from "../../assets/images/VCbg.png";
 import { useState } from "react";
@@ -27,8 +28,16 @@ export default function Hero() {
             ></Image>
             {expanded && (
               <div className={styles.ExpandedMenu}>
-                <div className={styles.ExpandedMenuItem}>HOME</div>
-                <div className={styles.ExpandedMenuItem}>ABOUT</div>
+                <div className={styles.ExpandedMenuItem}>
+                  <Link href="/" className={styles.ExpandedMenuLink}>
+                    HOME
+                  </Link>
+                </div>
+                <div className={styles.ExpandedMenuItem}>
+                  <Link href="/#about" className={styles.ExpandedMenuLink}>
+                    ABOUT
+                  </Link>
+                </div>
                 <div className={styles.ExpandedMenuItem}>RESEARCH</div>
               </div>
             )}

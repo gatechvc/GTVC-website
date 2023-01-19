@@ -5,7 +5,7 @@ import heartRight from "../../assets/images/HeartRight.png";
 
 export default function Heart() {
   return (
-    <div className={styles.Heart}>
+    <div className={styles.Heart} id="about">
       <div className={styles.HeartTitle}>
         Our <span className={styles.yellow}>Story</span>
       </div>
