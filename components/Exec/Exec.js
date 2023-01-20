@@ -8,7 +8,10 @@ import pearl from "../../assets/images/pearl.jpg";
 import tejal from "../../assets/images/tejal.jpg";
 import katelyn from "../../assets/images/katelyn.jpg";
 import yatharth from "../../assets/images/yatharth.jpg";
+import adithya from "../../assets/images/adithya.jpg";
 import kush from "../../assets/images/kush.jpg";
+import chris from "../../assets/images/chris.jpg";
+import amanda from "../../assets/images/amanda.jpg";
 import xander from "../../assets/images/xander.jpeg";
 
 export default function Exec() {
@@ -41,13 +44,13 @@ export default function Exec() {
       name: "Adithya Gurunathan",
       position: "Director of Fund",
       email: "agurunathan6@gatech.edu",
-      image: george,
+      image: adithya,
     },
     {
       name: "Chris Hur",
       position: "Director of Research",
       email: "chur8@gatech.edu",
-      image: george,
+      image: chris,
     },
     {
       name: "Tejal Dahake",
@@ -71,7 +74,7 @@ export default function Exec() {
       name: "Amanda Ehrenhalt",
       position: "Community PM",
       email: "aehrenhalt6@gatech.edu",
-      image: george,
+      image: amanda,
     },
     {
       name: "Pearl Dumbu",
