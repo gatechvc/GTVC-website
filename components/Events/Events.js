@@ -90,10 +90,10 @@ export default function Events() {
     {
       date: "March 27th, 2023 6:15PM - 7:15PM",
       location: "IC 109",
-      speaker: "Market Sizing + Milestone Metrics: Scott Lopano",
+      speaker: "Deep and Complex Problems in Tech",
       description:
         "Join us to get an introduction to VC, how it works, and how it makes money.",
-      type: "Curriculum 4",
+      type: "Speaker 4",
       alignment: "left",
     },
 
@@ -140,7 +140,7 @@ export default function Events() {
                     date={event.date}
                     location={event.location}
                     speaker={event.speaker}
-                    description={event.description}
+                    // description={event.description}
                     alignment="left"
                     type={event.type}
                     key={event.date}
@@ -159,7 +159,7 @@ export default function Events() {
                     date={event.date}
                     location={event.location}
                     speaker={event.speaker}
-                    description={event.description}
+                    // description={event.description}
                     alignment="right"
                     type={event.type}
                     key={event.date}
