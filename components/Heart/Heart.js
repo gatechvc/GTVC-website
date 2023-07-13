@@ -12,7 +12,7 @@ export default function Heart() {
       <div className={styles.HeartBody}>
         The Georgia Tech Venture Capital Club was founded to help raise
         awareness for career opportunities in Venture Capital and related
-        Financial Services. Additionally, the club helps members get hands-on
+        Financial Services. Additionally, the club helps members get hands on
         experience and educates members about the venture capital industry.
       </div>
       <div className={styles.LeftContainer}>
